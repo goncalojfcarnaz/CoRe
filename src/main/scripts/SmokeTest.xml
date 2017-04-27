@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTestRun">
+
+    <!-- DATA -->
+    <parameter name="sGroupName" value="Grupo de Testes1"/>
+    <parameter name="sUserName" value="João Barreto"/>
+
+
+
+    <!-- LISTENERS -->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <!-- <listener class-name="Reuse.Screenshot"/> -->
+    </listeners>
+    <!-- TESTS ORDER -->
+    <!--
+    <test name="SmokeTestSuite">
+        <packages>
+            <package name="SmokeTest"/>
+        </packages>
+    </test>
+    -->
+    <test  name="SmokeTestSuite">
+        <classes>
+            <class name="HomeTests.testGoHomePage"></class>
+        </classes>
+    </test>
+</suite>
