@@ -56,7 +56,7 @@
                         <workingDirectory>target/surefire-reports/html/</workingDirectory>
                         <!-- TEST FILES: .XML -->
                         <suiteXmlFiles>
-                            <suiteXmlFile>scripts/SmokeTest.xml</suiteXmlFile>
+                            <suiteXmlFile>src/main/scripts/SmokeTest.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <!-- END: TEST FILES: .XML -->
                     </configuration>
