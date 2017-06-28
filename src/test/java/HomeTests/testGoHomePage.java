@@ -33,9 +33,9 @@ public class testGoHomePage {
         HomePage obj = new HomePage(driver);
         Log.startTestCase("testGoHomePage", "Aceder à página do GOOGLE");
         Log.info("Pesquisar");
-        obj.pesquisadados("Batman" + Keys.ENTER);
-        obj.setBtnpesquisa();
-        obj.setLblImagens();
+       // obj.pesquisadados("Batman" + Keys.ENTER);
+        //obj.setBtnpesquisa();
+        //obj.setLblImagens();
         //obj.setIniciar();
         Log.endTestCase("testGoHomePage");
     }
