@@ -31,7 +31,13 @@ public class BrowserEnvironment {
 
         if(osNameMatch.contains("linux"))
         {
-
+                if(browser.equalsIgnoreCase("chrome")){
+                //File file = new File(new IPropertiesDealer().ReturnPath("chromedriverL"));
+                // System.out.println(chromedriverL);
+                System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Maven_1/src/main/supportfiles/chromedriver");
+                
+                driver = new ChromeDriver();
+            }
         }
         else if(osNameMatch.contains("windows"))
         {
