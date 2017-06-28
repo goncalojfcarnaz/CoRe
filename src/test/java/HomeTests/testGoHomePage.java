@@ -30,13 +30,13 @@ public class testGoHomePage {
 
     @Test(groups = "SmokeTestSuite")
     public void testGoHomePage() throws IOException {
-        HomePage obj = new HomePage(driver);
-        Log.startTestCase("testGoHomePage", "Aceder à página do GOOGLE");
-        Log.info("Pesquisar");
+        // HomePage obj = new HomePage(driver);
+        // Log.startTestCase("testGoHomePage", "Aceder à página do GOOGLE");
+        // Log.info("Pesquisar");
         // obj.pesquisadados("Batman" + Keys.ENTER);
         // obj.setBtnpesquisa();
         // obj.setLblImagens();
-        obj.setIniciar();
+        // obj.setIniciar();
         Log.endTestCase("testGoHomePage");
     }
 
