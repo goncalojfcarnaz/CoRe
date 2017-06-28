@@ -30,7 +30,7 @@ public class testGoHomePage {
 
     @Test(groups = "SmokeTestSuite")
     public void testGoHomePage() throws IOException {
-        // HomePage obj = new HomePage(driver);
+        HomePage obj = new HomePage(driver);
         Log.startTestCase("testGoHomePage", "Aceder à página do GOOGLE");
         Log.info("Pesquisar");
         // obj.pesquisadados("Batman" + Keys.ENTER);
