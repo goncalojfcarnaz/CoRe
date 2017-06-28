@@ -36,7 +36,7 @@ public class testGoHomePage {
         obj.pesquisadados("Batman" + Keys.ENTER);
         obj.setBtnpesquisa();
         obj.setLblImagens();
-        obj.setIniciar();
+        //obj.setIniciar();
         Log.endTestCase("testGoHomePage");
     }
 
