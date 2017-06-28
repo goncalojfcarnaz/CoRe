@@ -50,6 +50,7 @@ public class BrowserEnvironment {
             //** BROWSER: Chrome ****************************************************************
             if(browser.equalsIgnoreCase("chrome")){
                 File file = new File(new IPropertiesDealer().ReturnPath("chromedriverL"));
+                System.out.println(chromedriverL);
                 System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
                 driver = new ChromeDriver();
             }
